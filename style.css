@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+/*header section start here*/
+.header{
+    width: 100%;
+    margin-bottom: 150px;
+}
+/*nav menu start*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 40px;
+}
+.logo{
+    font-size: 30px;
+    cursor: pointer;
+}
+span{
+    color: orange;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 12px 16px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    color: aqua;
+}
+/*nav end*/
+/*button start*/
+.btn{
+    background-color: orange;
+    text-decoration: none;
+    padding: 10px 25px;
+    color: aliceblue;
+    border: 1px solid yellow;
+    border-radius: 30px;
+    outline: none;
+    transition: 1s;
+}
+.btn:hover{
+    background-color: aqua;
+    color: black;
+}
+/*button end*/
+/*----------------------------------------*/
+/*section class start */
+.section-cless{
+    display: flex;
+    margin-bottom: 60px;
+
+}
+/*banner section start*/
+.half-width{
+    width: 50%;
+    
+    
+}
+.half-width img{
+    width: 80%;
+    margin-left: 100px;
+
+}
+
+.half-width h1{
+    margin-left: 15%;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.253);
+    padding-top:22%;
+    
+}
+.half-width p{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-bottom: 40px;
+    color: rgba(4, 27, 20, 0.884);
+}
+.half-width .btn-1{
+    margin-left: 15%;
+}
+/*banner section end*/
+/*----------------------------------------------*/
+/*about section start here*/
+.about{
+    width:100%; 
+    background-image: url(./images/shapes/7.png);
+    background-size: cover;
+    background-position: center;
+    margin:0;
+    padding:0;
+
+}
+.about img{
+    width: 30%;
+    margin-left: 10%; 
+    margin-top: 5%; 
+}
+.about-text{
+    width: 50%;
+    margin-left: 18%;
+    margin-right: 5%;
+    margin-top: 15%;
+}
+.main{
+    width: 90%;
+    max-width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.about-text h2{
+    color: rgba(38, 17, 223, 0.466);
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-bottom:15%;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.555);
+
+}
+/*-------------------------------------------------*/
+.food-section{
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom:8%;
+}
+.row{
+    display:flex;
+    margin-top: 5%;
+}
+.col{
+    width: 30%;
+    margin-left: 2%;
+    margin-right:2%;
+    box-shadow: 10px 10px 10px 10px gainsboro;
+    padding: 20px;
+    border-radius: 30px;
+}
+.food-section h1{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 3%;
+    color: rgba(0, 0, 0, 0.432);
+}
+.food-text {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.438);
+    
+}
+.col h2{
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 4%;
+
+}
+.col-text{
+    text-align:justify;
+    padding: 5px;
+    letter-spacing: 1px;  
+    line-height: 28px;
+}
+.food-image{
+    margin-bottom: 4%;
+}
+.food-image img{
+    width: 100%;
+    border-radius:5%;
+}
+/*-----------------------------------------------*/
+.social{
+    width: 100%;
+    padding: 90px;
+    text-align: center;
+    margin-bottom: 3%;
+    
+}
+.icon{
+    width: 100%;
+    padding: 30px;
+    background-color: rgba(233, 227, 227, 0.959);
+    border-radius: 20px;
+}
+   
+.icon i{
+    font-size:50px;
+    padding: 10px 30px;
+    background-color:white;
+    border-radius: 20px;
+    margin:5%;
+}
+/*---------------------*/
+ footer{
+     background-color: black;
+     color: rgba(240, 248, 255, 0.445);
+     text-align: center;
+     padding: 30px;
+ }
+ footer p{
+     margin-top: 2%;
+     margin-bottom: 7%;
+     font-size: 20px;
+ }
+ footer h1{
+     font-size: 35px;
+     margin-bottom: 4%;
+ }
+div::after{
+    content: ' ';
+    display: table;
+    clear: both;
+}

@@ -34,6 +34,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.514);
 }
 
 /*nav end*/
@@ -136,7 +137,7 @@ nav ul li a{
     width: 30%;
     margin-left: 2%;
     margin-right:2%;
-    box-shadow: 10px 10px 10px 10px gainsboro;
+    box-shadow: 10px 10px 10px 10px rgba(220, 220, 220, 0.945);
     padding: 20px;
     border-radius: 30px;
 }

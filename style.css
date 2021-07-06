@@ -53,7 +53,6 @@ nav ul li a{
 .section-cless{
     display: flex;
     margin-bottom: 60px;
-
 }
 /*banner section start*/
 .banner-text{
@@ -87,8 +86,11 @@ nav ul li a{
 .about{
     width:100%; 
     background-image: url(./images/shapes/7.png);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
     background-size: cover;
-    background-position: center;
 }
 .about img{
     width: 30%;
@@ -109,8 +111,8 @@ nav ul li a{
     justify-content: space-between;
 } 
 .about-text h2{
-    color: rgba(38, 17, 223, 0.466);
-    font-size: 25px;
+    color: rgba(0, 0, 0, 0.37);
+    font-size: 30px;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
